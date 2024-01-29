@@ -97,19 +97,13 @@ ul {
 /* styles for all pages*/
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 450px;
 }
 
 .section {
   display: flex;
   justify-content: center;
   padding: 60px 0;
-}
-
-@media (min-width: 480px) {
-  .container {
-    width: 450px;
-  }
 }
 
 @media (min-width: 768px) {
