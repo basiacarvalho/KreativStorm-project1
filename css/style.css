@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(../fonts/Roboto-Thin.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto-Thin-Italic";
+  src: url(../fonts/Roboto-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto-Light-Italic";
+  src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto-Regular-Italic";
+  src: url(../fonts/Roboto-Italic.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto-Medium-Italic";
+  src: url(../fonts/Roboto-MediumItalic.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto-Bold-Italic";
+  src: url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(../fonts/Roboto-Black.ttf) format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Roboto-Black-Italic";
+  src: url(../fonts/Roboto-BlackItalic.ttf) format("truetype");
+  font-weight: 900;
+}
+
+/* global style */
+:root {
+  --active-color: #3882f6;
+  --background-color-light: #e5e7eb;
+  --background-color-dark: #1f2937;
+  --header-color: #f9faf8;
+  --text-color-light: #e5e7eb;
+  --text-color-dark: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* styles for all pages*/
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+/* Header */
+
+
+/* 1st section of the main page */
+
+
+/* 2nd section of the main page */
+
+
+/* 3rd section of the main page */
+
+
+/* 4th section of the main page */
+
+
+/* 5th section of the main page */
+
+
+/*Footer*/
+
+
+/* 1st subpage */
+
+
+/* 2nd subpage */
+
+
+/* 3rd subpage */
+
+
+/* 4th subpage */
+
