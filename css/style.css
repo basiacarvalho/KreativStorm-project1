@@ -192,11 +192,11 @@ ul {
 
 
 /* 2nd section of the main page */
-.courses-offer-header {
+.course-offer-header {
   display: none;
 }
 
-.courses-offer-list {
+.course-offer-list {
   padding: 10px;
 }
 
@@ -208,7 +208,7 @@ ul {
   margin-bottom: 40px;
 }
 
-.course-offer-link {
+.course-offer-item {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.2rem;
   color: var(--text-color-dark);
@@ -219,12 +219,6 @@ ul {
   border-radius: 10px;
   max-width: 100%;
   padding: 2px 0;
-}
-
-.course-offer-link:hover,
-.course-offer-link:focus {
-  color: var(--active-color);
-  font-weight: bolder;
 }
 
 .course-offer-text {
@@ -243,7 +237,7 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .courses-offer-list {
+  .course-offer-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -263,34 +257,18 @@ ul {
     padding: 0;
   }
 
-  .course-offer-img {
-    margin-bottom: 10px;
-  }
-
-  .course-offer-link {
+  .course-offer-item {
     font-size: 1rem;
-  }
-  
-  .course-offer-text {
-    margin-top: 10px;
   }
 }
 
 @media (min-width: 1200px) {
-  .courses-offer-list {
+  .course-offer-list {
     display: flex;
   }
 
   .course-offer {
     max-width: 23%;
-  }
-
-  .course-offer-img {
-    margin-bottom: 5px;
-  }
-
-  .course-offer-text {
-    margin-top: 5px;
   }
 }
 
@@ -386,14 +364,11 @@ ul {
   }
 }
 
-/* 1st subpage */
+/* 1st subpage - About Us */
 
 
-/* 2nd subpage */
+/* 2nd subpage - Our Course */
 
 
 /* 3rd subpage */
-
-
-/* 4th subpage */
 
