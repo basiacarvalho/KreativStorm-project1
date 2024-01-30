@@ -192,6 +192,14 @@ ul {
 
 
 /* 2nd section of the main page */
+.course-offer-header {
+  display: none;
+}
+
+.course-img {
+  max-width: 70%;
+  height: auto;
+}
 
 
 /* 3rd section of the main page */
