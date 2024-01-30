@@ -195,12 +195,57 @@ ul {
 
 
 /* 3rd section of the main page */
+.inspirational-header {
+  display: none;
+}
 
+.quote-section {
+  background-color: var(--background-color-light);
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.quote-text {
+  font-family: "Roboto-Light-Italic", sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color-dark);
+  align-self: stretch;
+}
+
+.quote-footer {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1rem;
+  color: var(--text-color-dark);
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .quote-text {
+    font-size: 2rem;
+  }
+
+  .quote-footer {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quote-text {
+    font-size: 2.25rem;
+  }
+
+  .quote-footer {
+    font-size:1.5rem;
+  }
+}
 
 /* 4th section of the main page */
-
-
-/* 5th section of the main page */
 
 
 /*Footer*/
