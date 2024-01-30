@@ -210,13 +210,14 @@ ul {
 
 .course-offer-link {
   font-family: "Roboto-Bold", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--text-color-dark);
 }
 
 .link-container {
   background-color: var(--background-color-light);
   border-radius: 10px;
+  max-width: 100%;
   padding: 2px 0;
 }
 
@@ -239,6 +240,58 @@ ul {
   border: 10px solid var(--background-color-light);
   border-radius: 10px;
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .courses-offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 20px 0;
+  }
+
+  .course-offer {
+    max-width: 40%;
+  }
+
+  .course-offer:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .link-container {
+    padding: 0;
+  }
+
+  .course-offer-img {
+    margin-bottom: 10px;
+  }
+
+  .course-offer-link {
+    font-size: 1rem;
+  }
+  
+  .course-offer-text {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .courses-offer-list {
+    display: flex;
+  }
+
+  .course-offer {
+    max-width: 23%;
+  }
+
+  .course-offer-img {
+    margin-bottom: 5px;
+  }
+
+  .course-offer-text {
+    margin-top: 5px;
+  }
 }
 
 /* 3rd section of the main page */
@@ -273,6 +326,10 @@ ul {
 }
 
 @media (min-width: 768px) {
+  .quote-container {
+    padding: 0;
+  }
+
   .quote-text {
     font-size: 2rem;
   }
