@@ -521,5 +521,41 @@ ul {
   }
 }
 
+@media (min-width: 1200px) {
+  .course-header {
+    font-size: 2.5rem;
+  }
+
+  .course-text {
+    font-size: 1.5rem;
+  }
+
+  .course-info-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .question-text {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .info-text {
+    font-size: 1.5rem;
+  }
+
+  .benefits-header {
+     font-size: 1.8rem;
+     padding: 12px 45px;
+  }
+
+  .benefits-list {
+    padding-left: 20px;
+  }
+
+  .benefit-text {
+    font-size: 1.5rem;
+  }
+}
+
 /* 3rd subpage */
 
