@@ -477,5 +477,49 @@ ul {
   max-width: 30%;
 }
 
+@media (min-width: 768px) {
+  .main-course-container {
+    padding: 0;
+  }
+
+  .course-header {
+    font-size: 2rem;
+  }
+
+  .course-text {
+    font-size: 1rem;
+  }
+
+  .course-info-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .info-text {
+    font-size: 1rem;
+  }
+
+  .course-benefits-container {
+    padding: 0;
+  }
+
+  .benefits-header {
+     font-size: 1.5rem;
+     padding: 7px 25px;
+  }
+
+  .benefits-list {
+    padding-left: 15px;
+  }
+
+  .benefit-text {
+    font-size: 1rem;
+  }
+}
+
 /* 3rd subpage */
 
