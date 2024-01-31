@@ -192,6 +192,10 @@ ul {
 
 
 /* 2nd section of the main page */
+.section-offer {
+  padding-top: 0;
+}
+
 .course-offer-header {
   display: none;
 }
