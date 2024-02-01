@@ -147,33 +147,33 @@ ul {
   padding: 10px;
 }
 
-.header__logo {
+.logo {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.125rem;
   color: var(--header-color);
 }
 
-.header__nav {
+.logo__accent {
+  color: var(--active-color);
+}
+
+.nav__links {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
-.header__nav__link {
+.nav__link {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 0.75rem;
   color: var(--text-color-light);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__nav__link:hover,
-.header__nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--active-color);
   font-weight: bolder;
-}
-
-.header__logo__accent {
-  color: var(--active-color);
 }
 
 @media (min-width: 768px) {
@@ -181,15 +181,15 @@ ul {
     padding: 15px;
   }
 
-  .header__logo {
+  .logo {
     font-size: 1.5rem;
   }
 
-  .header__nav {
+  .nav__links {
     gap: 15px;
   }
 
-  .header__nav__link {
+  .nav__link {
     font-size: 1.125rem;
   }
 }
@@ -199,7 +199,7 @@ ul {
     padding: 20px;
   }
 
-  .header__nav {
+  .nav__links {
     gap: 25px;
   }
 }
@@ -264,7 +264,7 @@ ul {
   display: none;
 }
 
-.course-offer-list {
+.course-offer__list {
   padding: 10px;
 }
 
