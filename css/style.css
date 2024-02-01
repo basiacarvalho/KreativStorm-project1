@@ -106,9 +106,50 @@ ul {
   padding: 30px 0;
 }
 
+.img-placeholder {
+  background: url(../images/placeholder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid var(--background-color-light);
+  border-radius: 10px;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: var(--background-color-light);
+  border: 3px solid var(--active-color);
+  border-radius: 50px;
+  margin: 0 10px 15px 0;
+  padding: 4px 0;
+  transition: background-color .3s;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+  cursor: pointer;
+  background-color: var(--active-color);
+  border: 3px solid var(--background-color-dark);
+}
+
+.scroll-to-top-icon {
+  width: 30px;
+  height: 25px;
+  fill: var(--text-color-dark);
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 738px;
+  }
+
+  .scroll-to-top {
+    margin: 0 20px 26px 0;
   }
 }
 
@@ -119,6 +160,10 @@ ul {
 
   .section {
     padding: 60px 0;
+  }
+
+   .scroll-to-top {
+    margin: 0 25px 35px 0;
   }
 }
 
@@ -238,7 +283,9 @@ ul {
 
 .course-offer-img {
   max-width: 100%;
+  min-width: 200px;
   height: auto;
+  min-height: 250px;
   border: 10px solid var(--background-color-light);
   border-radius: 10px;
   margin-bottom: 5px;
@@ -268,6 +315,10 @@ ul {
   .course-offer-item {
     font-size: 1rem;
   }
+
+  .course-offer-img {
+    min-height: 203px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -277,6 +328,10 @@ ul {
 
   .course-offer {
     max-width: 23%;
+  }
+
+  .course-offer-img {
+    min-height: 186px;
   }
 }
 
