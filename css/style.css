@@ -229,7 +229,7 @@ ul {
   margin-bottom: 20px;
   font-size: 1.125rem;
   margin-top: 10px;
-  padding-left: 90px;
+  text-align: center;
 }
 
 .hero-img {
@@ -428,7 +428,48 @@ ul {
 }
 
 /* 1st subpage - About Us */
+.about-section {
+padding-top: 40px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
+.about-title {
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 3rem;
+  color: var(--text-color-dark);
+  margin-bottom: 10px;
+  text-align: center;
+} 
+ 
+.about-text {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-color-dark);
+  text-align: justify;
+  margin-right: 5%;
+  padding-top: 1.5%;
+  line-height: 1.5;
+  font-size: 1.5rem;;
+}
+
+.about-img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+
+.about-container {
+  padding: 0 10px;
+}
 
 /* 2nd subpage - Our Course */
 .main-course-container {
