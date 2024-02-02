@@ -826,6 +826,7 @@ grid-template-columns: 1fr 1fr;
 
 .reviewTextIntro {
   font-family: "Roboto-Regular", sans-serif;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 1.125rem;
   margin-top: 10px;
@@ -835,6 +836,7 @@ grid-template-columns: 1fr 1fr;
 
 .reviewCard {
   width: 60vw;
+  margin-bottom: 10px;
   margin-left: 20vw;
   margin-top: 2vh;
   padding: 15px;
@@ -863,4 +865,19 @@ grid-template-columns: 1fr 1fr;
 
 .stars{
   text-align: right;
+}
+
+@media (max-width: 430px) {
+  .reviewCard{
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  .reviewTextIntro{
+    padding-left: 7vw;
+    padding-right: 7vw;
+    text-align: center;
+  }
+  .reviewStar{
+    width: 20px;
+  }
 }
