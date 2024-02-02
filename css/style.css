@@ -114,10 +114,6 @@ ul {
   .container {
     max-width: 738px;
   }
-
-  .scroll-to-top {
-    margin: 0 20px 26px 0;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -127,10 +123,6 @@ ul {
 
   .section {
     padding: 60px 0;
-  }
-
-   .scroll-to-top {
-    margin: 0 25px 35px 0;
   }
 }
 
@@ -474,8 +466,8 @@ ul {
     padding: 20px 0;
   }
 
-  .scroll-to-top {
-    margin: 0 15px 35px 0;
+   .scroll-to-top {
+    margin: 0 25px 35px 0;
   }
 }
 
