@@ -3,62 +3,57 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> About us </title>
+    <title>About us</title>
     <link rel="stylesheet" href="../css/style.css">
   </head>
-<body>
+  <body>
     <header class="header">
-        <div class="container header-container">
-          <a class="header-logo" href="#">
-            <span class="logo-accent">Code</span>Studio
-          </a>
-          <nav>
-          <ul class="header-nav">
-            <li><a class="header-nav-link" href="../index.html">Home</a></li>
-            <li><a class="header-nav-link" href="#">About Us</a></li>
-            <li><a class="header-nav-link" href="./course.html">Our Course</a></li>
-            <li><a class="header-nav-link" href="./review.html">Reviews</a></li>
+      <div class="container container--header">
+        <a class="logo" href="../index.html">
+          <span class="logo__accent">Code</span>Studio
+        </a>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="../index.html">Home</a></li>
+            <li><a class="nav__link" href="#">About Us</a></li>
+            <li><a class="nav__link" href="./course.html">Our Course</a></li>
+            <li><a class="nav__link" href="./review.html">Reviews</a></li>
           </ul>
         </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section about-section">
+        <div class="container about-container">
+          <h1 class="about-title">About us</h1>
+          <p class="about-text">
+            Our story began in 2019 when we decided to create a website that will help people learn how to code.
+            We are a team of 3 people who are passionate about coding and want to share our knowledge with others.
+            We believe that everyone can learn how to code, and we are here to help you with that.
+          </p>
+          <p class="about-text">
+            Our mission is to help people learn how to code and to make coding more accessible to everyone.
+            We want to make coding more fun and interesting for everyone.
+          </p>
+          <p class="about-text">
+            Our vision is to create a community of people who are passionate about coding and want to learn more about it.
+            We want to create a place where people can learn how to code and share their knowledge with others.
+          </p>
         </div>
-      </header>
-      <main>
-
- <section class="section about-section">
-  <div class="container about-container">
-    <h1 class="about-title">About us</h1>
-    <p class="about-text">
-    Our story began in 2019, when we decided to create a website that will help people to learn how to code.
-    We are a team of 3 people, who are passionate about coding and want to share our knowledge with others.
-    We believe that everyone can learn how to code, and we are here to help you with that.
-    </p>
-
-    <p class="about-text">
-    Our mission is to help people to learn how to code and to make coding more accessible to everyone.
-    We want to make coding more fun and interesting for everyone.
-    </p>
-
-    <p class="about-text">
-    Our vision is to create a community of people who are passionate about coding and want to learn more about it.
-    We want to create a place where people can learn how to code and share their knowledge with others.
-    </p>
-
-  </div>
-
-  <div class="container about-img-container">
-      <img 
-        class="about-img" 
-        src="../images/aboutimg.jpg"
-        alt="an open laptop and people working in the background"
-      />
-  </div>
-</section>
-
+        <div class="image__container">
+          <img class="about-img" src="../images/aboutimg.jpg" alt="an open laptop and people working in the background">
+        </div>
+      </section>
     </main>
-      <footer class="footer">
-        <div class="container footer-container">
-          <p class="footer-text">Copyright ©</p>
-        </div> 
-      </footer>
-</body>
+    <footer class="footer">
+      <div class="container copyright">
+        <p class="copyright__text">Copyright ©</p>
+      </div>
+      <a class="scroll-to-top" href="#top">
+        <svg class="scroll-to-top__icon">
+          <use href="../images/icons.svg#icon-arrow-up"></use>
+        </svg>
+      </a>
+    </footer>
+  </body>
 </html>
