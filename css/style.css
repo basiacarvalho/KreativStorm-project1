@@ -478,6 +478,7 @@ ul {
 }
 
 /* 1st subpage - About Us */
+
 .about-section {
 padding-top: 5px;
 display: grid;
@@ -546,8 +547,9 @@ grid-template-columns: 1fr 1fr;
   }
 
   .about-img {
-    max-width: 400px;
+    border-radius: 20px 20px 0 0 ;
   }
+
  
 }
 /*Tablet view*/
@@ -569,9 +571,7 @@ grid-template-columns: 1fr 1fr;
     font-size: 1.5rem;
   }
 
-  .about-img {
-    width: 500px;
-  }
+ 
 
 }
  
