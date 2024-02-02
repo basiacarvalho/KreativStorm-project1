@@ -653,5 +653,82 @@ padding-top: 40px;
   }
 }
 
-/* 3rd subpage */
+/* 3rd subpage Reviews*/
 
+#reviews{
+
+  display: flex;
+    justify-content : center;
+    flex-wrap: wrap;
+
+}
+
+#reviewIntro{
+  
+  justify-content: center;
+  color: var(--text-color-light);
+  padding: 40px;
+  margin-bottom: 20px;
+
+}
+
+.reviewTitle {
+
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 10px;
+
+}
+
+.reviewTextIntro {
+
+  font-family: "Roboto-Regular", sans-serif;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  margin-top: 10px;
+  padding-left: 12vw;
+  padding-right: 12vw;
+
+}
+
+.reviewCard {
+
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 2vh;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #E5E7EB;
+
+  display: flex;
+    
+}
+
+.profileImg{
+
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  padding: 15px;
+  
+  
+}
+
+.reviewText{
+
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: #1f2937;
+  
+}
+
+.reviewStar{
+
+  width: 30px;
+
+}
+
+.stars{
+  text-align: right;
+}
