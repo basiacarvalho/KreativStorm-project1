@@ -351,29 +351,29 @@ ul {
 }
 
 /* 3rd section of the main page */
-.inspirational-header {
-  display: none;
-}
-
-.quote-section {
+.section--quote {
   background-color: var(--background-color-light);
 }
 
-.quote-container {
+.quote__header {
+  display: none;
+}
+
+.quote-block {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0 15px;
 }
 
-.quote-text {
+.quote-block__text {
   font-family: "Roboto-Light-Italic", sans-serif;
   font-size: 1.2rem;
   color: var(--text-color-dark);
   align-self: stretch;
 }
 
-.quote-footer {
+.quote-block__footer {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 0.8rem;
   color: var(--text-color-dark);
@@ -382,25 +382,25 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .quote-container {
+  .quote-block {
     padding: 0;
   }
 
-  .quote-text {
+  .quote-block__text {
     font-size: 1.5rem;
   }
 
-  .quote-footer {
+  .quote-block__footer {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .quote-text {
+  .quote-block__text {
     font-size: 2rem;
   }
 
-  .quote-footer {
+  .quote-block__footer {
     font-size:1.2rem;
   }
 }
