@@ -552,7 +552,6 @@ ul {
 }
 
 /* 1st subpage - About Us */
-
 .about-section {
   padding-top: 5px;
   display: grid;
@@ -661,10 +660,9 @@ ul {
   text-align: center;
 }
 
-.course__container {
+.course {
   padding: 0 10px;
   display: flex;
-  align-items: stretch;
 }
 
 .course__text {
