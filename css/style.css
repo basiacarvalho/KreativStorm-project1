@@ -596,6 +596,7 @@ ul {
 .about-img {
   border-radius: 20px;
   max-width: 100%;
+  margin: 15px;
 }
 
 /*Mobile view*/
