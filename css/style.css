@@ -265,11 +265,11 @@ ul {
   .hero-text {
     font-size: 1rem;
   }
-
+  
   .hero-img {
     width: 300px;
   }
-
+  
   .hero-btn {
     padding: 8px 15px;
     font-size: 1rem;
@@ -569,7 +569,6 @@ grid-template-columns: 1fr 1fr;
   max-width: 100%;
 }
 
- 
 /*Mobile view*/
 @media (max-width: 768px) {
   .about-section {
@@ -594,7 +593,6 @@ grid-template-columns: 1fr 1fr;
   .about-img {
     border-radius: 20px 20px 0 0 ;
   }
-
  
 }
 /*Tablet view*/
@@ -603,7 +601,7 @@ grid-template-columns: 1fr 1fr;
   .about-section {
     margin: 0;
   }
-
+  
   .about-container {
     padding: 0 20px;
     margin: 0;
@@ -618,7 +616,6 @@ grid-template-columns: 1fr 1fr;
   .about-img {
     border-radius: 10px;
   }
-
 }
  
 
