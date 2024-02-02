@@ -26,7 +26,7 @@ We created a simple landing page for a Coding School company called CodeStudio. 
 
 ### Screenshots
 Computer view :
-![Screenshot](./images/screenshot.png)
+![Screenshot](./images/screenshot1.png)
 
 ![Screenshot](./images/screenshot2.png)
 
