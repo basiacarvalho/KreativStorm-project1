@@ -139,7 +139,7 @@ ul {
   background-color: var(--background-color-dark);
 }
 
-.header__container {
+.container--header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -177,7 +177,7 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .header__container {
+  .container--header {
     padding: 15px;
   }
 
@@ -195,7 +195,7 @@ ul {
 }
 
 @media (min-width: 1200px) {
-  .header__container {
+  .container--header {
     padding: 20px;
   }
 
@@ -260,43 +260,23 @@ ul {
 }
  
 /* 2nd section of the main page */
-.course-offer-header {
+.course-offer__header {
   display: none;
 }
 
-.course-offer__list {
+.offer {
   padding: 10px;
 }
 
-.course-offer {
+.offer__item {
   text-align: center;
 }
 
-.course-offer:not(:last-child) {
+.offer__item:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.course-offer-item {
-  font-family: "Roboto-Bold", sans-serif;
-  font-size: 1.2rem;
-  color: var(--text-color-dark);
-}
-
-.link-container {
-  background-color: var(--background-color-light);
-  border-radius: 10px;
-  max-width: 100%;
-  padding: 2px 0;
-}
-
-.course-offer-text {
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 1rem;
-  color: var(--text-color-dark);
-  margin-top: 5px;
-}
-
-.course-offer-img {
+.offer__img {
   max-width: 100%;
   min-width: 200px;
   height: auto;
@@ -306,8 +286,28 @@ ul {
   margin-bottom: 5px;
 }
 
+.offer__text-container {
+  background-color: var(--background-color-light);
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 2px 0;
+}
+
+.offer__text {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.2rem;
+  color: var(--text-color-dark);
+}
+
+.offer__advert {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1rem;
+  color: var(--text-color-dark);
+  margin-top: 5px;
+}
+
 @media (min-width: 768px) {
-  .course-offer-list {
+  .offer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -315,37 +315,37 @@ ul {
     gap: 20px 0;
   }
 
-  .course-offer {
+  .offer__item {
     max-width: 40%;
   }
 
-  .course-offer:not(:last-child) {
+  .offer__item:not(:last-child) {
     margin-bottom: 10px;
   }
 
-  .link-container {
+   .offer__img {
+    min-height: 203px;
+  }
+
+  .offer__text-container {
     padding: 0;
   }
 
-  .course-offer-item {
+  .offer__text {
     font-size: 1rem;
-  }
-
-  .course-offer-img {
-    min-height: 203px;
   }
 }
 
 @media (min-width: 1200px) {
-  .course-offer-list {
+  .offer {
     display: flex;
   }
 
-  .course-offer {
+  .offer__item {
     max-width: 23%;
   }
 
-  .course-offer-img {
+  .offer__img {
     min-height: 186px;
   }
 }
