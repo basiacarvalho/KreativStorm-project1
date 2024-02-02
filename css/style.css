@@ -446,6 +446,27 @@ ul {
 }
 
 /* 4th section of the main page */
+.signup__container{
+  background-color: var(--active-color);
+  padding: 30px;
+  width: 840px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color-light);
+}
+
+.signup__btn {
+  padding:  10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--text-color-light);
+  border-color: var(--text-color-light);
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.125rem;
+}
 
 /*Footer*/
 .footer {
