@@ -479,22 +479,31 @@ ul {
 
 /* 1st subpage - About Us */
 .about-section {
-padding-top: 40px;
+padding-top: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
+
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-top: 20px;
+  margin-left: 60px;
+}
+
+.image__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-title {
   font-family: "Roboto-Black", sans-serif;
   font-size: 3rem;
   color: var(--text-color-dark);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: center;
 } 
  
@@ -510,16 +519,64 @@ padding-top: 40px;
 }
 
 .about-img {
-  width: 600px;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 5px;
-  padding-right: 10px;
+  border-radius: 20px;
+  max-width: 100%;
 }
 
-.about-container {
-  padding: 0 10px;
+ 
+/*Mobile view*/
+@media (max-width: 768px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .about-img {
+    max-width: 400px;
+  }
+ 
 }
+/*Tablet view*/
+@media (min-width: 768px) {
+
+  .about-section {
+    margin: 0;
+  }
+
+  .about-container {
+    padding: 0 20px;
+    margin: 0;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .about-img {
+    width: 500px;
+  }
+
+}
+ 
+
+
 
 /* 2nd subpage - Our Course */
 .main-course-container {
