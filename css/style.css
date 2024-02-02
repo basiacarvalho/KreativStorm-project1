@@ -413,33 +413,17 @@ ul {
   background-color: var(--background-color-dark);
 }
 
-.footer-container {
+.copyright {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0;
 }
 
-.footer-text {
+.copyright__text {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 0.75rem;
   color: var(--text-color-light);
-}
-
-@media (min-width: 768px) {
-  .footer-container {
-    padding: 15px 0;
-  }
-
- .footer-text {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .footer-container {
-    padding: 20px 0;
-  }
 }
 
 .scroll-to-top {
@@ -453,7 +437,7 @@ ul {
   background-color: var(--background-color-light);
   border: 3px solid var(--active-color);
   border-radius: 50px;
-  margin: 0 10px 15px 0;
+  margin: 0 15px 15px 0;
   padding: 4px 0;
   transition: background-color .3s;
 }
@@ -465,10 +449,34 @@ ul {
   border: 3px solid var(--background-color-dark);
 }
 
-.scroll-to-top-icon {
+.scroll-to-top__icon {
   width: 30px;
   height: 25px;
   fill: var(--text-color-dark);
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    padding: 15px 0;
+  }
+
+ .copyright__text {
+    font-size: 1.125rem;
+  }
+
+  .scroll-to-top {
+    margin: 0 20px 25px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .copyright {
+    padding: 20px 0;
+  }
+
+  .scroll-to-top {
+    margin: 0 15px 35px 0;
+  }
 }
 
 /* 1st subpage - About Us */
