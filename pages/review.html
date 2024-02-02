@@ -1,102 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews</title>
     <link rel="stylesheet" href="../css/style.css">
   </head>
-
-<body>
+  <body>
     <header class="header">
-        <div class="container header-container">
-          <a class="header-logo" href="#">
-            <span class="logo-accent">Code</span>Studio
-          </a>
-          <nav>
-          <ul class="header-nav">
-            <li><a class="header-nav-link" href="../index.html">Home</a></li>
-            <li><a class="header-nav-link" href="./about.html">About Us</a></li>
-            <li><a class="header-nav-link" href="./course.html">Our Course</a></li>
-            <li><a class="header-nav-link" href="#">Reviews</a></li>
+      <div class="container container--header">
+        <a class="logo" href="../index.html">
+          <span class="logo__accent">Code</span>Studio
+        </a>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="../index.html">Home</a></li>
+            <li><a class="nav__link" href="./pages/about.html">About Us</a></li>
+            <li><a class="nav__link" href="./pages/course.html">Our Course</a></li>
+            <li><a class="nav__link" href="#">Reviews</a></li>
           </ul>
         </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section reviewIntro">
+        <div class="container hero-container">
+          <h1 class="reviewTitle">Still in doubt?</h1>
+          <h2 class="reviewTextIntro">
+            What about hearing a little  bit more from our students themselves?
+            Check out the reviews below to see what they have to say!
+          </h2>
         </div>
-      </header>
-
-      <main>
-
-        <section class="section reviewIntro">
-
-          <div class="container hero-container">
-
-            <h1 class="reviewTitle">
-              Still in doubt?
-            </h1>
-
-            <h2 class="reviewTextIntro">
-              What about hearing a little  bit more from our students themselves? Check out the reviews below to see what they have to say!
-            </h2>
-           
-          </div>
-  
-        </section>
-
-        <section>
-
-          <div id="container reviews">
-   
-            <div class="reviewCard">
-
-              <img src="../images/ProfileImg/bruna.jpg" alt="Woman with a black dress and face witth a lot os piercings" class="profileImg">
-              
-              <div class="reviewText">
-
-                <h4>Bruna:</h4> 
-                <p>
-                <br>I have been using Code Studio for a few months now and it has really helped me to improve my coding skills. <br>
-                </p>
-                <br><br>
-                <div class="stars">
-
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-
-                 </div>
-
-               </div>
-
-               
-
+      </section>
+      <section>
+        <div id="container reviews">
+          <div class="reviewCard">
+            <img 
+              src="../images/ProfileImg/bruna.jpg" 
+              alt="Woman with a black dress and face witth a lot os piercings" 
+              class="profileImg"
+            >
+            <div class="reviewText">
+              <h4>Bruna:</h4> 
+              <p>
+                <br> 
+                  I have been using Code Studio for a few months now and it has 
+                  really helped me to improve my coding skills. 
+                <br>
+              </p>
+              <br><br>
+              <div class="stars">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
             </div>
+          </div>
 
-            <div class="reviewCard">
 
-              <img src="../images/ProfileImg/alex.jpg" alt="Woman smiling with a light blue dress" class="profileImg">
-              
-              <div class="reviewText">
 
-                <h4>Alex:</h4> 
-                <p>
-                <br>I have been using Code Studio for a few months now and it has really helped me to improve my coding skills.
-                </p>
+        </div>
 
-                <br><br>
-                <div class="stars">
-
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-                  <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
-
-                 </div>
-
-               </div>
+          <div class="reviewCard">
+            <img 
+              src="../images/ProfileImg/alex.jpg" 
+              alt="Woman smiling with a light blue dress" 
+              class="profileImg"
+            >
+            <div class="reviewText">
+              <h4>Alex:</h4> 
+              <p>
+              <br>
+                I have been using Code Studio for a few months now and it has really 
+                helped me to improve my coding skills.
+              </p>
+              <br><br>
+              <div class="stars">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+              <img src="../images/ProfileImg/star.svg" alt="" class="reviewStar">
+            </div>
+          </div>
 
             </div>
 
@@ -184,14 +171,17 @@
   
 
       </main>
-
-      <footer class="footer">
-        
-        <div class="container footer-container">
-          <p class="footer-text">Copyright ©</p>
-        </div> 
-
-      </footer>
+     <footer class="footer">
+      <div class="container copyright">
+        <p class="copyright__text">Copyright ©</p>
+      </div> 
+      <a class="scroll-to-top" href="#top">
+        <svg class="scroll-to-top__icon">
+          <use href="./images/icons.svg#icon-arrow-up"></use>
+        </svg>
+      </a>
+    </footer>
+     
 
 
 </body>
