@@ -93,7 +93,7 @@ ul {
 /* styles for all pages*/
 .container {
   margin: 0 auto;
-  max-width: 450px;
+  max-width: 480px;
 }
 
 .section {
@@ -451,9 +451,6 @@ ul {
 /* 4th section of the main page */
 
 
-/* 5th section of the main page */
-
-
 /*Footer*/
 .footer {
   background-color: var(--background-color-dark);
@@ -807,7 +804,4 @@ grid-template-columns: 1fr 1fr;
 }
 
 /* 3rd subpage */
-
-
-/* 4th subpage */
 
