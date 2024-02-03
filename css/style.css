@@ -453,16 +453,17 @@ ul {
 
 /* 4th section of the main page */
 .section-sign-up {
-  margin: 15px;
+  margin: 0 15px;
 }
 
-.signup__container{
+.signup__container {
   background-color: var(--active-color);
   padding: 30px;
   width: 840px;
   margin: 0 auto;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--text-color-light);
@@ -476,15 +477,26 @@ ul {
   border-color: var(--text-color-light);
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.125rem;
+  margin-top: 3%;
 }
 
-/*Mobile view*/
-@media screen and (max-width: 768px) {
-  .section-sign-up {
-  display: none;
+@media (min-width: 768px) {
+  .signup__container {
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
   }
- 
+
+  .signup__btn {
+    margin-top: 0;
+  }
 }
+
+/* @media (min-width: 1200px) {
+  .quote-block__text {
+    font-size: 2rem;
+  }
+} */
 
 /*Footer*/
 .footer {
