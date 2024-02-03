@@ -203,15 +203,12 @@ ul {
 }
 
 /* 1st section of the main page */
-.container {
+.hero {
   display: flex;
-}
-
-.column {
-  flex: 1;
-  padding: 20px;
-}
-
+  flex-direction: row;
+  justify-content: center;
+  }
+ 
 .hero-img {
   max-width: 100%;
   height: auto;
@@ -225,9 +222,17 @@ ul {
   text-align: center;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
 .hero-container {
   margin: 0 auto;
   padding: 0 10px;
+  justify-content: center;
 }
 
 .hero-title {
@@ -238,7 +243,7 @@ ul {
 
 .hero-text {
   font-family: "Roboto-Regular", sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 1.125rem;
   margin-top: 10px;
   text-align: center;
@@ -252,21 +257,41 @@ ul {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.125rem;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
 }
 
 /*Mobile view*/
 @media (max-width: 768px) {
+
   .hero {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     padding: 40px;
   }
 
+.hero-container {
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .hero-title {
     font-size: 1.5rem;
   }
 
   .hero-text {
     font-size: 1rem;
+    margin-bottom: 20px;
   }
 
   .hero-img {
@@ -291,7 +316,7 @@ ul {
   }
 
   .hero-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .hero-img {
