@@ -887,11 +887,16 @@ ul {
   color: #1f2937;  
 }
 
+.reviewText p{
+  margin-top: 30px;
+}
+
 .reviewStar{
   width: 30px;
 }
 
 .stars{
+  margin-top: 30px;
   text-align: right;
 }
 
