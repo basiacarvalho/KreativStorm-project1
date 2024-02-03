@@ -866,7 +866,6 @@ body {
   max-width: 100%;
   border-radius: 15%;
   padding: 15px;
-
   transition: transform 0.3s ease-in-out;
 }
 
@@ -890,7 +889,6 @@ body {
 }
 
 .pagination-pointA{
-
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -898,8 +896,6 @@ body {
   margin: 0 5px;
   cursor: pointer;
   margin-bottom: 25px;
-
-
 }
 
 
@@ -921,8 +917,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-
-
 }
 
 
@@ -939,14 +933,12 @@ body {
   margin-left: 15px;
   border-radius: 10%;
   border: 1px solid #c0c6c0;
-
 }
 
 
 .button-carousel button,
 .search-btn {
   font-family: 'Roboto-light', sans-serif;
-
   padding: 10px;
   background-color: #ffffff;
   color: #000000;
@@ -956,14 +948,12 @@ body {
   margin-left: 15px;
   border-radius: 30%;
   border: 1px solid #c0c6c0;
-
 }
 
 .button-carousel button:hover,
 .search-btn:hover {
   background-color: #3882F6;
   color: #ffffff;
-
 }
 
 .search-bar {
@@ -975,7 +965,6 @@ body {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 10%;
-
 }
 
 
@@ -1011,12 +1000,6 @@ body {
 
 .blog-card img {
   width: 100%;
-  height: 200px; /* Set your desired height */
-  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+  height: 200px; 
+  object-fit: cover; 
 }
-
-
-
-
-
-
