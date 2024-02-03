@@ -79,6 +79,12 @@
   --text-color-dark: #1f2937;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -338,7 +344,7 @@ ul {
   min-width: 200px;
   height: auto;
   min-height: 250px;
-  border: 10px solid var(--background-color-light);
+  border: 10px solid var(--active-color);
   border-radius: 10px;
   margin-bottom: 5px;
 }
@@ -464,16 +470,17 @@ ul {
 
 /* 4th section of the main page */
 .section-sign-up {
-  margin: 15px;
+  margin: 0 15px;
 }
 
-.signup__container{
+.signup__container {
   background-color: var(--active-color);
   padding: 30px;
   width: 840px;
   margin: 0 auto;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: var(--text-color-light);
@@ -487,19 +494,31 @@ ul {
   border-color: var(--text-color-light);
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.125rem;
+  margin-top: 3%;
 }
 
-/*Mobile view*/
-@media screen and (max-width: 768px) {
-  .section-sign-up {
-  display: none;
+@media (min-width: 768px) {
+  .signup__container {
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
   }
- 
+
+  .signup__btn {
+    margin-top: 0;
+  }
 }
+
+/* @media (min-width: 1200px) {
+  .quote-block__text {
+    font-size: 2rem;
+  }
+} */
 
 /*Footer*/
 .footer {
   background-color: var(--background-color-dark);
+  margin-top: auto;
 }
 
 .copyright {
@@ -569,7 +588,6 @@ ul {
 }
 
 /* 1st subpage - About Us */
-
 .about-section {
   padding-top: 5px;
   display: grid;
@@ -678,10 +696,9 @@ ul {
   text-align: center;
 }
 
-.course__container {
+.course {
   padding: 0 10px;
   display: flex;
-  align-items: stretch;
 }
 
 .course__text {
@@ -847,4 +864,83 @@ ul {
   }
 }
 
-/* 3rd subpage */
+
+/* 3rd subpage Reviews*/
+#reviews{
+  display: flex;
+    justify-content : center;
+    flex-wrap: wrap;
+}
+
+.reviewTitle {
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 10px;
+}
+
+.reviewHeader {
+  display: none;
+}
+
+.reviewTextIntro {
+  font-family: "Roboto-Regular", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  margin-top: 10px;
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.reviewCard {
+  width: 60vw;
+  margin-bottom: 60px;
+  margin-left: 20vw;
+  margin-top: 2vh;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #E5E7EB;
+  display: flex;    
+}
+
+.profileImg{
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  padding: 15px;  
+}
+
+.reviewText{
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: #1f2937;  
+}
+
+.reviewText p{
+  margin-top: 30px;
+}
+
+.reviewStar{
+  width: 30px;
+}
+
+.stars{
+  margin-top: 30px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .reviewCard{
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  .reviewTextIntro{
+    padding-left: 7vw;
+    padding-right: 7vw;
+    text-align: center;
+  }
+  .reviewStar{
+    width: 20px;
+  }
+}

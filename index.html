@@ -1,123 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeStudio</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container container--header">
-      <a class="logo" href="#">
-        <span class="logo__accent">Code</span>Studio
-      </a>
-      <nav class="nav">
-        <ul class="nav__links">
-          <li><a class="nav__link" href="#">Home</a></li>
-          <li><a class="nav__link" href="./pages/about.html">About Us</a></li>
-          <li>
-            <a class="nav__link" href="./pages/course.html">Our Course</a>
-          </li>
-          <li><a class="nav__link" href="#">Link four</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="section hero">
-      <div class="container hero-container">
-        <h1 class="hero-title">Welcome to CodeStudio</h1>
-        <div class="hero-content">
-          <p class="hero-text">
-            We are here to help you learn how to code.
-          </p>
-          <p class="hero-text">Start a new career with Code Studio</p>
-          <a class="hero-btn" href="#">Signup</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container--header">
+        <a class="logo" href="#">
+          <span class="logo__accent">Code</span>Studio
+        </a>
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#">Home</a></li>
+            <li><a class="nav__link" href="./pages/about.html">About Us</a></li>
+            <li><a class="nav__link" href="./pages/course.html">Our Course</a></li>
+            <li><a class="nav__link" href="./pages/review.html">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section hero">
+        <div class="container hero-container">
+          <div class="column">
+            <h1 class="hero-title">Welcome to CodeStudio</h1>
+            <div class="hero-content">
+              <p class="hero-text">
+                We are here to help you learn how to code.
+              </p>
+              <p class="hero-text">Start a new career with Code Studio</p>
+              <a class="hero-btn" href="#">Signup</a>
+            </div>
+          </div>
+          <div class="column">
+            <img
+              class="hero-img"
+              src="./images/heroimg.jpg"
+              alt="an open laptop with code displayed on a desk with a plant and a mug"
+            >
+          </div>
         </div>
-      </div>
-      <img class="hero-img" src="./images/heroimg.jpg"
-        alt="an open laptop with code displayed on a desk with a plant and a mug">
-      </div>
-      </div>
-    </section>
-    <section class="section course-offer">
-      <div class="container">
-        <h2 class="course-offer__header">What we teach</h2>
-        <ul class="offer">
-          <li class="offer__item">
-            <img class="offer__img img-placeholder" src="./images/html.jpg"
-              alt="laptop's keyboard as a background with a word - html, in the center">
-            <div class="offer__text-container">
-              <p class="offer__text">HTML</p>
-            </div>
-            <p class="offer__advert">Discover website structure with us.</p>
-          </li>
-          <li class="offer__item">
-            <img class="offer__img" src="./images/css.jpg"
-              alt="a fragment of CSS code displayed on the computer's screen">
-            <div class="offer__text-container">
-              <p class="offer__text">CSS</p>
-            </div>
-            <p class="offer__advert">Learn how to make your website cool.</p>
-          </li>
-          <li class="offer__item">
-            <img class="offer__img" src="./images/javascript.jpg"
-              alt="a fragment of JavaScript code displayed on the computer's screen">
-            <div class="offer__text-container">
-              <p class="offer__text">JavaScript</p>
-            </div>
-            <p class="offer__advert">
-              Give your website great functionality.
+      </section>
+      <section class="section course-offer">
+        <div class="container">
+          <h2 class="course-offer__header">What we teach</h2>
+          <ul class="offer">
+            <li class="offer__item">
+              <img
+                class="offer__img img-placeholder"
+                src="./images/html.jpg"
+                alt="laptop's keyboard as a background with a word - html, in the center"
+              >
+              <div class="offer__text-container">
+                <p class="offer__text">HTML</p>
+              </div>
+              <p class="offer__advert">Discover website structure with us.</p>
+            </li>
+            <li class="offer__item">
+              <img
+                class="offer__img"
+                src="./images/css.jpg"
+                alt="a fragment of CSS code displayed on the computer's screen"
+              >
+              <div class="offer__text-container">
+                <p class="offer__text">CSS</p>
+              </div>
+              <p class="offer__advert">Learn how to make your website cool.</p>
+            </li>
+            <li class="offer__item">
+              <img
+                class="offer__img"
+                src="./images/javascript.jpg"
+                alt="a fragment of JavaScript code displayed on the computer's screen"
+              >
+              <div class="offer__text-container">
+                <p class="offer__text">JavaScript</p>
+              </div>
+              <p class="offer__advert">
+                Give your website great functionality.
+              </p>
+            </li>
+            <li class="offer__item">
+              <img
+                class="offer__img"
+                src="./images/react.jpg"
+                alt="a React JS framework displayed on the computer's screen"
+              >
+              <div class="offer__text-container">
+                <p class="offer__text">React JS</p>
+              </div>
+              <p class="offer__advert">Improve your website performance.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--quote">
+        <div class="container quote">
+          <h2 class="quote__header">Get inspired</h2>
+          <blockquote
+            class="quote-block"
+            cite="https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/"
+          >
+            <p class="quote-block__text">
+              Tell me and I forget, teach me and I may remember, involve me and
+              I learn.
             </p>
-          </li>
-          <li class="offer__item">
-            <img class="offer__img" src="./images/react.jpg"
-              alt="a React JS framework displayed on the computer's screen">
-            <div class="offer__text-container">
-              <p class="offer__text">React JS</p>
-            </div>
-            <p class="offer__advert">Improve your website performance.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="section section--quote">
-      <div class="container quote">
-        <h2 class="quote__header">Get inspired</h2>
-        <blockquote class="quote-block"
-          cite="https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/">
-          <p class="quote-block__text">
-            Tell me and I forget, teach me and I may remember, involve me and
-            I learn.
+            <footer class="quote-block__footer">
+              - Benjamin Franklin, <cite>skyprep</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+      <section class="section section-sign-up">
+        <div class="signup__container">
+          <aside>
+            <h3 class="signup__header"> Call to action ! It's time ! </h3>
+            <p class="signup__txt"> 
+            Sign-up for out product by clicking the buttton right over there ! 
           </p>
-          <footer class="quote-block__footer">
-            - Benjamin Franklin, <cite>skyprep</cite>
-          </footer>
-        </blockquote>
+          </aside>
+          <button class="signup__btn" type="submit">Let's talk here</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container copyright">
+        <p class="copyright__text">Copyright ©</p>
       </div>
-    </section>
-    <!--4th section - Sign Up -->
-    <section class="section section-sign-up">
-      <div class="signup__container">
-        <h3 class="signup__header"> Call to action ! It's time ! </h3>
-        <p class="signup__txt"> Sign-up for out product by clicking the buttton right over there ! </p>
-        <button class="signup__btn" type="submit">Let's talk here</button>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container copyright">
-      <p class="copyright__text">Copyright ©</p>
-    </div>
-    <a class="scroll-to-top" href="#top">
-      <svg class="scroll-to-top__icon">
-        <use href="./images/icons.svg#icon-arrow-up"></use>
-      </svg>
-    </a>
-  </footer>
-</body>
-
+      <a class="scroll-to-top" href="#top">
+        <svg class="scroll-to-top__icon">
+          <use href="./images/icons.svg#icon-arrow-up"></use>
+        </svg>
+      </a>
+    </footer>
+  </body>
 </html>
