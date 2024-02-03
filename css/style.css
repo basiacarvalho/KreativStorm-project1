@@ -327,7 +327,7 @@ ul {
   min-width: 200px;
   height: auto;
   min-height: 250px;
-  border: 10px solid var(--background-color-light);
+  border: 10px solid var(--active-color);
   border-radius: 10px;
   margin-bottom: 5px;
 }
