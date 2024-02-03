@@ -261,6 +261,14 @@ ul {
   margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+}
+
 /*Mobile view*/
 @media (max-width: 768px) {
 
@@ -308,7 +316,7 @@ ul {
   }
 
   .hero-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .hero-img {
