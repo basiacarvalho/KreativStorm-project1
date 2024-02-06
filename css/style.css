@@ -505,6 +505,20 @@ ul {
   margin-top: 3%;
 }
 
+/*Mobile view*/
+@media (max-width: 768px) {
+  .signup__container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .signup__btn {
+    margin-top: 10px;
+  }
+}
+
+
 @media (min-width: 768px) {
   .signup__container {
     flex-direction: row;
