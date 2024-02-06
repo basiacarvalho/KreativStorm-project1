@@ -331,6 +331,10 @@ ul {
 }
 
 /* 2nd section of the main page */
+.course-offer__container {
+  margin: 0 10px;
+}
+
 .course-offer__header {
   display: none;
 }
@@ -361,7 +365,7 @@ ul {
   background-color: var(--background-color-light);
   border-radius: 10px;
   max-width: 100%;
-  padding: 2px 0;
+  padding: 8px 0;
 }
 
 .offer__text {
@@ -396,10 +400,6 @@ ul {
 
   .offer__img {
     min-height: 203px;
-  }
-
-  .offer__text-container {
-    padding: 0;
   }
 
   .offer__text {
