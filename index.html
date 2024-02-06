@@ -25,7 +25,7 @@
     <main>
       <section class="section hero">
         <div class="container hero-container">
-          <div class="column">
+          <aside class="column">
             <h1 class="hero-title">Welcome to CodeStudio</h1>
             <div class="hero-content">
               <p class="hero-text">
@@ -34,7 +34,7 @@
               <p class="hero-text">Start a new career with Code Studio</p>
               <a class="hero-btn" href="#">Signup</a>
             </div>
-          </div>
+          </aside>
           <div class="column">
             <img
               class="hero-img"
@@ -45,56 +45,54 @@
         </div>
       </section>
       <section class="section course-offer">
-        <div class="container">
+        <div class="container course-offer__container">
           <h2 class="course-offer__header">What we teach</h2>
-          <ul class="offer">
-            <li class="offer__item">
+          <div class="offer">
+            <figure class="offer__item">
               <img
                 class="offer__img img-placeholder"
                 src="./images/html.jpg"
                 alt="laptop's keyboard as a background with a word - html, in the center"
               >
-              <div class="offer__text-container">
+              <figcaption class="offer__text-container">
                 <p class="offer__text">HTML</p>
-              </div>
-              <p class="offer__advert">Discover website structure with us.</p>
-            </li>
-            <li class="offer__item">
+                <p class="offer__advert">Discover website structure.</p>
+              </figcaption>
+            </figure>
+            <figure class="offer__item">
               <img
                 class="offer__img"
                 src="./images/css.jpg"
                 alt="a fragment of CSS code displayed on the computer's screen"
               >
-              <div class="offer__text-container">
+              <figcaption class="offer__text-container">
                 <p class="offer__text">CSS</p>
-              </div>
-              <p class="offer__advert">Learn how to make your website cool.</p>
-            </li>
-            <li class="offer__item">
+                <p class="offer__advert">Make your website cool.</p>
+              </figcaption>
+            </figure>
+            <figure class="offer__item">
               <img
                 class="offer__img"
                 src="./images/javascript.jpg"
                 alt="a fragment of JavaScript code displayed on the computer's screen"
               >
-              <div class="offer__text-container">
+              <figcaption class="offer__text-container">
                 <p class="offer__text">JavaScript</p>
-              </div>
-              <p class="offer__advert">
-                Give your website great functionality.
-              </p>
-            </li>
-            <li class="offer__item">
+                <p class="offer__advert">Add great functionality.</p>
+              </figcaption>
+            </figure>
+            <figure class="offer__item">
               <img
                 class="offer__img"
                 src="./images/react.jpg"
                 alt="a React JS framework displayed on the computer's screen"
               >
-              <div class="offer__text-container">
+              <figcaption class="offer__text-container">
                 <p class="offer__text">React JS</p>
-              </div>
-              <p class="offer__advert">Improve your website performance.</p>
-            </li>
-          </ul>
+                <p class="offer__advert">Improve website's performance.</p>
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </section>
       <section class="section section--quote">
@@ -108,9 +106,10 @@
               Tell me and I forget, teach me and I may remember, involve me and
               I learn.
             </p>
-            <footer class="quote-block__footer">
-              - Benjamin Franklin, <cite>skyprep</cite>
-            </footer>
+            <p class="quote-block__footer">
+              - Benjamin Franklin, 
+              <cite>skyprep</cite>
+            </p>
           </blockquote>
         </div>
       </section>
