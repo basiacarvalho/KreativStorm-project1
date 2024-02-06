@@ -479,6 +479,7 @@ ul {
 }
 
 .signup__container {
+  font-family: "Roboto-Regular", sans-serif;
   background-color: var(--active-color);
   padding: 30px;
   width: 840px;
