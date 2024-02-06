@@ -258,7 +258,7 @@ ul {
   font-size: 1.125rem;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 @media (min-width: 768px) {
@@ -291,17 +291,19 @@ ul {
 
   .hero-text {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .hero-img {
     width: 300px;
+    margin-top: 20px;
   }
 
   .hero-btn {
     padding: 8px 15px;
     font-size: 1rem;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -317,6 +319,7 @@ ul {
 
   .hero-text {
     font-size: 1.2rem;
+    margin-bottom: 20px;
   }
 
   .hero-img {
@@ -479,6 +482,7 @@ ul {
 }
 
 .signup__container {
+  font-family: "Roboto-Regular", sans-serif;
   background-color: var(--active-color);
   padding: 30px;
   width: 840px;
@@ -501,6 +505,20 @@ ul {
   font-size: 1.125rem;
   margin-top: 3%;
 }
+
+/*Mobile view*/
+@media (max-width: 768px) {
+  .signup__container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .signup__btn {
+    margin-top: 10px;
+  }
+}
+
 
 @media (min-width: 768px) {
   .signup__container {
