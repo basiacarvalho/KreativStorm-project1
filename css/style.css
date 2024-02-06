@@ -291,18 +291,22 @@ ul {
 
   .hero-text {
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .hero-img {
     width: 300px;
+    margin-top: 20px;
   }
 
   .hero-btn {
     padding: 8px 15px;
     font-size: 1rem;
     margin-bottom: 20px;
+    margin-top: 20px;
+
   }
+ 
 }
 
 /*Tablet view*/
@@ -317,6 +321,7 @@ ul {
 
   .hero-text {
     font-size: 1.2rem;
+    margin-bottom: 20px;
   }
 
   .hero-img {
