@@ -514,12 +514,6 @@ ul {
   }
 }
 
-/* @media (min-width: 1200px) {
-  .quote-block__text {
-    font-size: 2rem;
-  }
-} */
-
 /*Footer*/
 .footer {
   background-color: var(--background-color-dark);
@@ -697,6 +691,7 @@ ul {
   font-family: "Roboto-Black", sans-serif;
   font-size: 1.5rem;
   color: var(--text-color-dark);
+  margin-top: 5px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -710,7 +705,7 @@ ul {
   font-family: "Roboto-Regular", sans-serif;
   font-size: 0.75rem;
   color: var(--text-color-dark);
-  text-align: start;
+  text-align: center;
   margin-right: 5%;
   padding-top: 1.5%;
 }
@@ -768,7 +763,7 @@ ul {
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.2rem;
   color: var(--text-color-light);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: start;
   background-color: var(--active-color);
   padding: 4px 10px;
@@ -796,6 +791,8 @@ ul {
 
   .course__header {
     font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 
   .course__text {
@@ -821,11 +818,16 @@ ul {
 
   .benefits-box__header {
     font-size: 1.5rem;
+    margin-bottom: 15px;
     padding: 7px 25px;
   }
 
   .benefits {
     padding-left: 15px;
+  }
+
+  .benefits__item:not(:last-child) {
+    margin-bottom: 15px;
   }
 
   .benefits__text {
@@ -834,8 +836,15 @@ ul {
 }
 
 @media (min-width: 1200px) {
+  .course__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .course__header {
     font-size: 2.5rem;
+    margin-top: 0;
   }
 
   .course__text {
@@ -857,11 +866,17 @@ ul {
 
   .benefits-box__header {
     font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 35px;
     padding: 12px 45px;
   }
 
   .benefits {
     padding-left: 20px;
+  }
+
+   .benefits__item:not(:last-child) {
+    margin-bottom: 25px;
   }
 
   .benefits__text {
