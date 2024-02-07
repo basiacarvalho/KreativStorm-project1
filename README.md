@@ -34,13 +34,11 @@ Computer view :
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What we learned
 We learned how to create a simple landing page using HTML and CSS. We also learned how to make the page responsive using media queries. Some of the things we learned include:
 - Flexbox
-- CSS Grid
 - Media queries
 - Responsive design
 
@@ -76,7 +74,6 @@ Some code snippets :
 
 - [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - This helped us understand how to use flexbox. I really liked this pattern and will use it going forward.
 - [Media queries ](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) - This is an amazing article which helped us finally understand media queries. I'd recommend it to anyone still learning this concept.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) - This is an amazing article which helped us finally understand CSS Grid. I'd recommend it to anyone still learning this concept.
 
 ### Continued development
 
