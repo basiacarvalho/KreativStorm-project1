@@ -508,10 +508,6 @@ ul {
 /*Footer*/
 .footer {
   background-color: var(--background-color-dark);
-  margin-top: auto;
-}
-
-.copyright {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -554,7 +550,7 @@ ul {
 }
 
 @media (min-width: 768px) {
-  .copyright {
+  .footer {
     padding: 15px 0;
   }
 
@@ -568,7 +564,7 @@ ul {
 }
 
 @media (min-width: 1200px) {
-  .copyright {
+  .footer {
     padding: 20px 0;
   }
 
@@ -925,6 +921,7 @@ ul {
   height: 120px;
   border-radius: 120px;
   padding: 15px;  
+  float: left;
 }
 
 .reviewText{
