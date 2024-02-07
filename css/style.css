@@ -204,10 +204,10 @@ ul {
 
 /* 1st section of the main page */
 .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .hero {
   background-color: var(--background-color-dark);
@@ -461,6 +461,10 @@ ul {
   color: var(--text-color-light);
 }
 
+.signup__header {
+  margin-bottom: 5px;
+}
+
 .signup__btn {
   padding:  10px 20px 10px 20px;
   border-radius: 5px;
@@ -469,14 +473,13 @@ ul {
   border-color: var(--text-color-light);
   font-family: "Roboto-Bold", sans-serif;
   font-size: 1.125rem;
-  margin-top: 3%;
 }
 
 /*Mobile view*/
 @media (max-width: 768px) {
   .signup__container {
     width: 100%;
-    padding: 20px;
+    padding: 20px 10px;
     text-align: center;
   }
 
