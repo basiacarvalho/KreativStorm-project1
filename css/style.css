@@ -904,6 +904,7 @@ ul {
 }
 
 .reviewCard {
+  font-family: "Roboto-Regular", sans-serif;
   width: 60vw;
   margin-bottom: 60px;
   margin-left: 20vw;
@@ -937,6 +938,7 @@ ul {
 }
 
 .stars{
+  margin-right: 25px;
   margin-top: 30px;
   text-align: right;
 }
