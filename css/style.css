@@ -575,35 +575,21 @@ ul {
 
 /* 1st subpage - About Us */
 .about-section {
-  padding-top: 5px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
 }
 
 .about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
-}
-
-.image__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 20px;
 }
 
 .about-title {
   font-family: "Roboto-Black", sans-serif;
-  font-size: 3rem;
   color: var(--text-color-dark);
-  margin-bottom: 5px;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 .about-text {
@@ -611,67 +597,52 @@ ul {
   font-size: 0.75rem;
   color: var(--text-color-dark);
   text-align: justify;
-  margin-right: 5%;
   padding-top: 1.5%;
   line-height: 1.5;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .about-img {
-  border-radius: 20px;
-  max-width: 50%;
-  margin: 0 15px;
+  border-radius: 10px;
+  max-width: 93%;
+  margin: 0 auto;
 }
 
-/*Mobile view*/
-@media (max-width: 768px) {
-  .about-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-container {
-    margin: 0;
-    padding: 10px;
-  }
-
-  .about-title {
-    font-size: 1.5rem;
-  }
-
-  .about-text {
-    font-size: 1rem;
-  }
-
-  .about-img {
-    border-radius: 20px 20px 0 0;
-    margin: 0 15px;
-    max-width: 100%;
-  }
-}
-/*Tablet view*/
 @media (min-width: 768px) {
   .about-section {
-    margin: 0;
+    height: fit-content;
   }
 
-  .about-container {
-    padding: 0 20px;
-    margin: 0;
-  }
   .about-title {
     font-size: 2.5rem;
   }
 
   .about-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .about-img {
+  border-radius: 20px;
+  max-width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    padding-top: 1%;
+  }
+
+  .about-text {
     font-size: 1.5rem;
   }
+
   .about-img {
-    border-radius: 10px;
-    margin: 0;
+    margin-top: 15px;
+    max-width: 85%;
+    height: 60vh;
   }
 }
 
