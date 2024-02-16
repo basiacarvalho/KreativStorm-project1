@@ -3,26 +3,24 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The Project](#the-project)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Screenshots](#screenshots) 
-  - [Built with](#built-with)
-  - [What we learned](#what-we-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [The Project](#the-project)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Screenshots](#screenshots) 
+- [Built with](#built-with)
+- [What we learned](#what-we-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### The Project
-We created a simple landing page for a Coding School company called CodeStudio. The page is fully responsive and was built using HTML and CSS.
+We created a landing page for a Coding School company called CodeStudio. The page is fully responsive and was built using HTML and CSS.
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://github.com/basiacarvalho/kreativstorm-project1)
-- Live Site URL: [Add live site URL here](https://basiacarvalho.github.io/kreativstorm-project1/)
+- Solution URL: [Github](https://github.com/basiacarvalho/kreativstorm-project1)
+- Live Site URL: [Live demo](https://basiacarvalho.github.io/kreativstorm-project1/)
 
 ### Screenshots
 Computer view :
@@ -37,7 +35,7 @@ Computer view :
 - Mobile-first workflow
 
 ### What we learned
-We learned how to create a simple landing page using HTML and CSS. We also learned how to make the page responsive using media queries. Some of the things we learned include:
+We learned how to create a landing page using HTML and CSS. We also learned how to make the page responsive using media queries. Some of the things we learned include:
 - Flexbox
 - Media queries
 - Responsive design
@@ -71,18 +69,13 @@ Some code snippets :
 ```
 
 ### Useful resources
-
 - [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - This helped us understand how to use flexbox. I really liked this pattern and will use it going forward.
 - [Media queries ](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) - This is an amazing article which helped us finally understand media queries. I'd recommend it to anyone still learning this concept.
 
 ### Continued development
-
 We would like to continue learning about responsive design and how to make our pages more interactive. We would also like to learn more about JavaScript and how to use it to make our pages more interactive. 
 
-
 ## Authors
- 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Alessandro Eumar de Lacerda Júnior 👨‍💻
+- Barbara Carvalho 👩‍💻
+- Elisabeth Erkekoglou 👩‍💻
