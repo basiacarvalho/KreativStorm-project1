@@ -24,9 +24,9 @@ We created a landing page for a Coding School company called CodeStudio. The pag
 
 ### Screenshots
 Computer view :
-![Screenshot](./images/screenshot1.png)
+![Screenshot](./images/CodeStudio_4.png)
 
-![Screenshot](./images/screenshot2.png)
+![Screenshot](./images/CodeStudio_3.png)
 
 ### Built with
 - Semantic HTML5 markup
